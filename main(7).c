@@ -37,14 +37,12 @@ int main(void)
  double mag2=sqrt(pow(c[1],2));//magnitude for vector break
  double res=mag1+mag2;//resultant magnitude
  double prod=mag1*mag2;//product of the two magnitude
- double d=(dot_product)/(prod);//in order to find the angle
- double result=cos(d);//angle of the two vectors is assigned to the result
+ double angle=(dot_product)/(prod);//angle of the two vectors is assigned to the result
  printf("\nMagnitude of the vector1:%.1f",round(mag1));//display the magnitude of the vector a
  printf("\nMagnitude of the vector2:%.1f",round(mag2));//display the magnitude of the vector b
  printf("\nMagnitude of the  product vector:%.1f",round(prod));//product of the magnitude of the two vectors a and b
- printf("\n%.1f",round(d));//display the value for d
  printf("\nMagnitude of the  resultant vector:%.1f",round(res));//displays the resultant magnitude of the vector
- printf("\nAngle of the resultant vector:%.2f",round(result));//displays the angle of the resultant vector
+ printf("\nAngle of the resultant vector cos theta is:%.2f",round(angle));//displays the angle of the resultant vector
  return 0;//it will return with some number
       
 }
